@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+header  {
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    box-sizing: border-box;
+}
+header img{
+    height: 50px;
+    margin-left: 10px;
+    padding: 10px 0px;
+}
+nav {
+    text-transform: capitalize;
+    margin: 0px 25px;
+    padding: 20px 0px;
+} 
+nav a, a:link, a:hover, a:visited {
+    margin-left: 10px;
+    text-decoration: underline;
+    color: seashell;
+}
+.mission{
+    background-image: url("../Imagens/img-mission-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    height: 700px;
+    margin: auto;
+}
+.mission div {
+    background-color: black;
+    width: 100%;
+    height: auto;
+}
+.mission div h2,.mission div h4{
+    font-family: Helvetica;
+    font-size: 22px;
+    text-align: center;
+    color: seashell;
+    text-transform: capitalize;
+    font-weight: 800;
+    padding: 10px 0px;
+    margin: 5px;
+}
+.mission div h4{
+    font-family: Helvetica;
+    font-size: 18px;
+    text-align: center;
+    color: seashell;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+/*Todos deveriam estar dentro de uma section, mas estou com preguiça RSRSRSRS */
+.padd h2  {
+    margin-top: 60px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+.padd h4  {
+    padding: 60px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+/*Todos deveriam estar dentro de uma section, mas estou com preguiça RSRSRSRS */
+.firstkit , .seckit{
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    width: 1000px;
+}
+/*Todos deveriam estar dentro de uma section, mas estou com preguiça RSRSRSRS */
+.firstkit p , .seckit p {
+    text-transform: capitalize;
+    margin: 10px 0px 100px;
+}
+/*Todos deveriam estar dentro de uma section, mas estou com preguiça RSRSRSRS */
+/*Imagens para  demonstrar os produtos*/
+.tea img{
+    width: 300px;
+    height: 200px;
+    margin: 10px 50px;
+}
+.locations{
+    background-image: url("../Imagens/img-locations-background-melhor.jpeg");
+    background-attachment: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width:95%;
+    margin: auto;
+    
+}
+
+.container__locations{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.locations h2{
+    padding: 20px;
+}
+.locations ul{
+    width: 300px;
+    height: 300px;
+    opacity: 1;
+    background-color: black;
+    margin: 15px 40px 0px 0px;
+
+}
+.locations ul li{
+    list-style-type: none;
+    padding: 25px 0px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+section .email{
+    height: 200px;
+    text-align: center;
+    text-transform: capitalize;
+    align-items: center;
+}
+.email h2, .email h5{
+    padding: 80px 0px 0px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+footer{
+    position: absolute;
+    width: 100%;
+    margin-top: 20px;
+}
+footer p{
+    text-align: left;
+    width: 100%;
+    font-weight: bold;
+    padding: 0px 0px 20px;
+}
